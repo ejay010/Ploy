@@ -1,0 +1,21 @@
+{
+  "name": "Ploy",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "pusher": "~3.0.0"
+  },
+  "install": {
+    "path": "public/js"
+  }
+
+}

@@ -31,6 +31,10 @@ Route::post('/userlogin/dojob/{id}', 'BidController@dojob');
 Route::post('/userlogin/accept','BidController@accept');
 Route::post('/userlogin/message', 'BidController@relayMessage');
 
+Route::get('/home', function(){
+    redirect('/userlogin');
+});
+
 Route::get('/testing', function(){
     dd(\App\job::all()->toArray());
 });
